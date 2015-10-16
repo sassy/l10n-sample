@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="localization" hreflang="en" href="locales/en/l10n.json" type="application/x-l10n+json">
+    <link rel="localization" hreflang="ja" href="locales/ja/l10n.json" type="application/x-l10n+json">
+    <script type="text/javascript" src="bower_components/l10n/l10n.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#hello').text(("%title").toLocaleString());
+      $('#world').text(("%world").toLocaleString());
+    });
+    </script>
+  </head>
+  <body>
+    <body>
+      <div>
+        <span id="hello"></span>
+        <span id="world"></span>
+      </div>
+    </body>
+  </body>
+</html>
