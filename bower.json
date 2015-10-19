@@ -1,0 +1,24 @@
+{
+  "name": "l10n-sample",
+  "authors": [
+    "Satoshi Watanabe <sassy.watanabe@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "l10n.js"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "l10n": "*"
+  }
+}
